@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Greetings from './components/Greetings';
 
@@ -9,6 +8,6 @@ const App = () => (
     </Routes>
   </div>
 );
-//server pid 15976
+// server pid 15976
 
 export default App;
