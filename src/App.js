@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Greetings from './components/Greetings';
+import Greetings from './components/Greetings.js';
 
 const App = () => (
   <div id='App'>
@@ -8,6 +8,5 @@ const App = () => (
     </Routes>
   </div>
 );
-// server pid 15976
 
 export default App;

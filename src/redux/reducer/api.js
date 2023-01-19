@@ -17,7 +17,6 @@ export const fetchGreetings = () => (dispatch) => {
     .then((response) => {
       const { data } = response;
       dispatch(setGreetings(data));
-      console.log(data);
     })
     .catch((error) => {
       console.log(error);
