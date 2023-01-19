@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import Greetings from './components/Greetings.js';
+import Greetings from './components/Greetings';
 
 const App = () => (
-  <div id='App'>
+  <div id="App">
     <Routes>
       <Route path="/" element={<Greetings />} />
     </Routes>
